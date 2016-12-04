@@ -1,0 +1,1 @@
+/Users/mlobo1997/dot-files/zsh/oh-my-zsh/custom/themes/pure/pure.zsh.target
