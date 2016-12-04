@@ -83,6 +83,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ..2="cd ../.."
+alias ..3="cd ../../.."
 
 # Pure theme options
 #PURE_PROMPT_SYMBOL='❯❯❯'
