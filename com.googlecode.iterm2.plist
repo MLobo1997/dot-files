@@ -371,7 +371,7 @@
 	<key>NSFontPanelAttributes</key>
 	<string>1, 1</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/dotfiles/iTerm2</string>
+	<string>~/dotfiles</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -413,9 +413,9 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>301 400 445 77 0 0 1366 745 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>42 224 796 473 0 0 1366 745 </string>
+	<string>14 181 918 381 0 0 1366 745 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>621 293 745 452 0 0 1366 745 </string>
+	<string>465 243 745 452 0 0 1366 745 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>0 72 619 673 0 0 1366 745 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -510,13 +510,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.41162186861038208</real>
+				<real>0.9942852258682251</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.3961338996887207</real>
+				<real>0.91508829593658447</real>
 				<key>Red Component</key>
-				<real>0.88795685768127441</real>
+				<real>0.54558646678924561</real>
 			</dict>
 			<key>Ansi 15 Color</key>
 			<dict>
@@ -549,52 +549,52 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.090371191501617432</real>
+				<real>0.54832202196121216</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.96457958221435547</real>
+				<real>0.98275065422058105</real>
 				<key>Red Component</key>
-				<real>0.87987947463989258</real>
+				<real>0.9424901008605957</real>
 			</dict>
 			<key>Ansi 4 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.94428819417953491</real>
+				<real>0.99877303838729858</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.63076114654541016</real>
+				<real>0.72887319326400757</real>
 				<key>Red Component</key>
-				<real>0.15792247653007507</real>
+				<real>0.28794747591018677</real>
 			</dict>
 			<key>Ansi 5 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.74973940849304199</real>
+				<real>0.70531737804412842</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.30102232098579407</real>
+				<real>0.29879066348075867</real>
 				<key>Red Component</key>
-				<real>0.80237823724746704</real>
+				<real>0.98751437664031982</real>
 			</dict>
 			<key>Ansi 6 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.90609169006347656</real>
+				<real>0.9942852258682251</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.80820262432098389</real>
+				<real>0.91508829593658447</real>
 				<key>Red Component</key>
-				<real>0.37275990843772888</real>
+				<real>0.54558646678924561</real>
 			</dict>
 			<key>Ansi 7 Color</key>
 			<dict>
@@ -642,13 +642,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.10142327100038528</real>
+				<real>0.077523812651634216</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.10139290243387222</real>
+				<real>0.077522493898868561</real>
 				<key>Red Component</key>
-				<real>0.10270275175571442</real>
+				<real>0.077524803578853607</real>
 			</dict>
 			<key>Background Image Location</key>
 			<string></string>
@@ -1057,13 +1057,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.81099116802215576</real>
+				<real>0.82339191436767578</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.79081130027770996</real>
+				<real>0.6027643084526062</real>
 				<key>Red Component</key>
-				<real>0.15447065234184265</real>
+				<real>0.24144099652767181</real>
 			</dict>
 			<key>Minimum Contrast</key>
 			<real>0.0</real>
@@ -1854,7 +1854,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/mlobo1997/dotfiles/iTerm2</string>
+	<string>/Users/mlobo1997/dotfiles</string>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -1884,7 +1884,7 @@
 	<key>iTerm Version</key>
 	<string>3.0.12</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
 	<false/>
 </dict>
