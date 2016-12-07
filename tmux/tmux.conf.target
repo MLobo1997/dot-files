@@ -1,7 +1,12 @@
+# screen-like hotkey
+unbind C-b
+set -g prefix C-a
+
 #----------MUST BE AT BOTTOM---------
 # List of plugins
 set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-sensible'
+set -g @plugin 'christoomey/vim-tmux-navigator'
 
 # Other examples:
 # set -g @plugin 'github_username/plugin_name'
