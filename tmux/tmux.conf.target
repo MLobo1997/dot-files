@@ -8,7 +8,21 @@ set -g prefix C-a
 # reload tmux
 bind r \
 	source-file ~/.tmux.conf \;\
-	display 'Reloaded tmux config.'
+	display 'Reloaded tmux config!'
+
+# 256 colorspace
+set -g default-terminal "screen-256color"
+
+# re-number windows when one is closed
+set -g renumber-windows on
+
+# Splitting with s/S
+bind-key s split-window -h -c '#{pane_current_path}'
+bind-key S split-window -v -c '#{pane_current_path}'
+
+#Kill pane
+bind-key x kill-pane
+bind-key X kill-pane -a
 
 #----------MUST BE AT BOTTOM---------
 # List of plugins
