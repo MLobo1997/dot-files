@@ -1,6 +1,14 @@
+#unbind all predefined keys
+unbind-key -a
+
 # screen-like hotkey
-unbind C-b
 set -g prefix C-a
+
+
+# reload tmux
+bind r \
+	source-file ~/.tmux.conf \;\
+	display 'Reloaded tmux config.'
 
 #----------MUST BE AT BOTTOM---------
 # List of plugins
