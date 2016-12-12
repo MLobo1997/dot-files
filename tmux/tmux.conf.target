@@ -9,8 +9,8 @@ set -g renumber-windows on
 
 
 # screen-like hotkey
-set -g prefix C-g
-bind-key C-g send-prefix
+set -g prefix C-b
+bind-key C-b send-prefix
 
 # reload tmux
 bind-key r \
@@ -21,10 +21,30 @@ bind-key r \
 bind-key s split-window -h -c '#{pane_current_path}'
 bind-key S split-window -v -c '#{pane_current_path}'
 
-#Kill pane
+#Close pane
 bind-key x kill-pane
-#kill all panes except for selected
-bind-key X kill-pane -a
+
+#Open new window
+bind-key o new-window
+
+#Close window
+bind-key X kill-window
+
+#Move between windows
+bind-key l next-window
+bind-key h previous-window
+
+# choosing windows 
+bind 0 select-window -t 0
+bind 1 select-window -t 1
+bind 2 select-window -t 2
+bind 3 select-window -t 3
+bind 4 select-window -t 4
+bind 5 select-window -t 5
+bind 6 select-window -t 6
+bind 7 select-window -t 7
+bind 8 select-window -t 8
+bind 9 select-window -t 9
 
 #----------MUST BE AT BOTTOM---------
 # List of plugins
