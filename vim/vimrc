@@ -33,13 +33,10 @@ Plugin 'VundleVim/Vundle.vim'
 "Plugin 'ascenator/L9', {'name': 'newL9'}
 
 "Colorschemes plugin
-"Plugin 'flazz/vim-colorschemes'
+Plugin 'flazz/vim-colorschemes'
 
 "Tmux and vim navigation plugin
 Plugin 'christoomey/vim-tmux-navigator'
-
-"Molokai colorscheme
-Plugin 'tomasr/molokai'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -55,7 +52,10 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
-
 colorscheme molokai
+let g:molokai_original = 1
+let g:rehash256 = 1
+syntax on
 
-
+"Show lines
+set number
