@@ -9,8 +9,8 @@ set -g renumber-windows on
 
 
 # screen-like hotkey
-set -g prefix C-b
-bind-key C-b send-prefix
+set -g prefix C-g
+bind-key C-g send-prefix
 
 # reload tmux
 bind-key r \
@@ -31,8 +31,8 @@ bind-key o new-window
 bind-key X kill-window
 
 #Move between windows
-#bind-key -n M-m next-window
-#bind-key -n M-n previous-window
+bind-key m next-window
+bind-key n previous-window
 
 # choosing windows 
 bind 0 select-window -t 0
