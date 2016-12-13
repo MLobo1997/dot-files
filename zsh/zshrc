@@ -88,6 +88,7 @@ if [ "$TMUX" = "" ]; then (tmux a || tmux); fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ..1="cd ../.."
 alias ..2="cd ../../.."
+alias dev="cd ~/Development"
 
 # Pure theme options
 #PURE_PROMPT_SYMBOL='❯❯❯'
