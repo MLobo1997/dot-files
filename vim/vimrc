@@ -38,6 +38,15 @@ Plugin 'flazz/vim-colorschemes'
 "Tmux and vim navigation plugin
 Plugin 'christoomey/vim-tmux-navigator'
 
+"Html-css plugin
+Plugin 'mattn/emmet-vim'
+
+"Indentation marks
+Plugin 'Yggdroot/indentLine'
+
+"Jekyll plugin
+"Plugin 'parkr/vim-jekyll'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -52,6 +61,8 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+"Theme things
 colorscheme molokai
 let g:molokai_original = 1
 let g:rehash256 = 1
@@ -59,3 +70,11 @@ syntax on
 
 "Show lines
 set number
+
+"emmet-vim stuff
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
+
+"indentLine stuff
+let g:indentLine_char = '│'
+
