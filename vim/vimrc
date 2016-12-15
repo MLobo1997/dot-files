@@ -44,6 +44,9 @@ Plugin 'mattn/emmet-vim'
 "Indentation marks
 Plugin 'Yggdroot/indentLine'
 
+"Status and tab bar customization
+Plugin 'vim-airline/vim-airline'
+
 "Jekyll plugin
 "Plugin 'parkr/vim-jekyll'
 
@@ -78,3 +81,5 @@ autocmd FileType html,css EmmetInstall
 "indentLine stuff
 let g:indentLine_char = '│'
 
+"airline stuff
+set laststatus=2
