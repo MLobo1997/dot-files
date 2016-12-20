@@ -413,11 +413,11 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>125 278 445 77 0 0 1366 745 </string>
+	<string>125 144 445 77 0 0 1366 768 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>14 120 796 473 0 0 1366 768 </string>
+	<string>6 229 918 495 0 0 1366 768 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>59 293 745 452 0 0 1366 768 </string>
+	<string>0 58 1366 687 0 0 1366 745 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>0 293 745 452 0 0 1366 768 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -1080,7 +1080,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Menlo-Regular 14</string>
+			<string>MesloLGMDZ-RegularForPowerline 14</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -1868,7 +1868,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-12-13T01:18:23Z</date>
+	<date>2016-12-18T19:11:10Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1885,6 +1885,10 @@
 	<false/>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
+	<key>findIgnoreCase_iTerm</key>
+	<true/>
+	<key>findRegex_iTerm</key>
+	<false/>
 	<key>iTerm Version</key>
 	<string>3.0.12</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
