@@ -55,7 +55,7 @@ bind j resize-pane -D 5
 bind k resize-pane -U 5
 
 #Theme
-set -g @themepack 'double/orange'
+set -g @themepack 'double/green'
 #----------MUST BE AT BOTTOM---------
 # List of plugins
 set -g @plugin 'tmux-plugins/tpm'
