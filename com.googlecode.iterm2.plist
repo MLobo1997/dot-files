@@ -376,6 +376,8 @@
 	<integer>32</integer>
 	<key>HotkeyCode</key>
 	<integer>49</integer>
+	<key>HotkeyMigratedFromSingleToMulti</key>
+	<true/>
 	<key>HotkeyModifiers</key>
 	<integer>524288</integer>
 	<key>JobName</key>
@@ -422,16 +424,44 @@
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
+	<key>NSTouchBarConfig: regular</key>
+	<dict>
+		<key>CurrentItems</key>
+		<array>
+			<string>iTermTouchBarIdentifierManPage</string>
+			<string>iTermTouchBarIdentifierFunctionKeys</string>
+			<string>NSTouchBarItemIdentifierFlexibleSpace</string>
+			<string>iTermTouchBarIdentifierAddMark</string>
+			<string>iTermTouchBarIdentifierNextMark</string>
+			<string>iTermTouchBarIdentifierPreviousMark</string>
+			<string>NSTouchBarItemIdentifierOtherItemsProxy</string>
+		</array>
+		<key>DefaultItems</key>
+		<array>
+			<string>iTermTouchBarIdentifierManPage</string>
+			<string>iTermTouchBarIdentifierColorPreset</string>
+			<string>iTermTouchBarIdentifierFunctionKeys</string>
+			<string>NSTouchBarItemIdentifierFlexibleSpace</string>
+			<string>NSTouchBarItemIdentifierOtherItemsProxy</string>
+			<string>iTermTouchBarIdentifierAddMark</string>
+			<string>iTermTouchBarIdentifierPreviousMark</string>
+			<string>iTermTouchBarIdentifierNextMark</string>
+		</array>
+	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>787 185 578 180 0 0 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>40 453 677 407 0 0 1440 877 </string>
+	<string>381 370 677 407 0 0 1440 900 </string>
+	<key>NSWindow Frame SessionsPreferences</key>
+	<string>269 126 606 469 0 0 1440 900 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>173 386 796 473 0 0 1440 900 </string>
+	<string>172 431 1018 447 0 0 1440 900 </string>
+	<key>NSWindow Frame UKCrashReporter</key>
+	<string>0 5 1440 895 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 10 1432 867 0 0 1440 877 </string>
+	<string>0 4 1440 896 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>379 187 730 527 0 0 1440 877 </string>
+	<string>0 8 1440 444 0 0 1440 900 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1233,7 +1263,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-12-25T18:38:59Z</date>
+	<date>2016-12-30T15:19:12Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1242,10 +1272,14 @@
 	<false/>
 	<key>ShowNewOutputIndicator</key>
 	<false/>
+	<key>SmartCursorColorFgThreshold</key>
+	<real>0.0</real>
 	<key>TabStyle</key>
 	<integer>0</integer>
 	<key>TabViewType</key>
 	<integer>2</integer>
+	<key>UKCrashReporterLastCrashReportDate</key>
+	<real>1483062272</real>
 	<key>UseBorder</key>
 	<false/>
 	<key>WindowNumber</key>
@@ -1257,7 +1291,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.13</string>
+	<string>3.0.git.7298ca5f42</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>1</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
