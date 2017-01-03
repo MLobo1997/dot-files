@@ -83,3 +83,6 @@ let g:indentLine_char = '│'
 
 "airline stuff
 set laststatus=2
+
+"clipboard access
+set clipboard=unnamed
