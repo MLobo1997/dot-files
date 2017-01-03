@@ -59,6 +59,13 @@ bind l resize-pane -R 10
 bind j resize-pane -D 5
 bind k resize-pane -U 5
 
+#Allow in apps clipboard access
+set -g default-shell $SHELL 
+set -g default-command "reattach-to-user-namespace -l ${SHELL}"
+
+#Vim escape delay fix
+set -sg escape-time 0
+
 #Theme
 set -g @themepack 'double/green'
 #----------MUST BE AT BOTTOM---------
