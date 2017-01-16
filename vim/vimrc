@@ -83,6 +83,8 @@ let g:indentLine_char = '│'
 
 "airline stuff
 set laststatus=2
+let g:airline_theme='dark'
+let g:airline_powerline_fonts = 1
 
 "clipboard access
 set clipboard=unnamed
@@ -94,3 +96,4 @@ set tabstop=4
 set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
+
