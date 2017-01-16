@@ -60,17 +60,13 @@ bind j resize-pane -D 5
 bind k resize-pane -U 5
 
 # v to start copy mode as Vim's Visual Mode
-unbind [
 bind v copy-mode
 
 # When in copy (visual) mode, v begins selection
 bind-key -t vi-copy v begin-selection
 
-# Start window count at 1
-set-window-option -g pane-base-index 1
-
 # Vim keybindings in copy mode
-setw -g mode-keys vi
+set -g mode-keys vi
 
 #Allow in apps clipboard access
 set -g default-shell $SHELL 
@@ -87,6 +83,7 @@ set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-sensible'
 set -g @plugin 'christoomey/vim-tmux-navigator'
 set -g @plugin 'jimeh/tmux-themepack'
+set -g @plugin 'tmux-plugins/tmux-yank'
 # Other examples:
 # set -g @plugin 'github_username/plugin_name'
 # set -g @plugin 'git@github.com/user/plugin'
