@@ -89,6 +89,6 @@ if [ "$TMUX" = "" ]; then (tmux a || tmux); fi
 alias ..1="cd ../.."
 alias ..2="cd ../../.."
 alias dev="cd ~/Development"
-alias v="vim"
+alias v="nvim"
 # Pure theme options
 #PURE_PROMPT_SYMBOL='❯❯❯'
