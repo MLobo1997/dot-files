@@ -90,5 +90,7 @@ alias ..1="cd ../.."
 alias ..2="cd ../../.."
 alias dev="cd ~/Development"
 alias v="nvim"
+alias al='f() {alias | grep $1};f'
+
 # Pure theme options
 #PURE_PROMPT_SYMBOL='❯❯❯'
