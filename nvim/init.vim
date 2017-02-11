@@ -9,6 +9,9 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'flazz/vim-colorschemes'
 
 Plug 'Yggdroot/indentLine'
+
+Plug 'gregsexton/MatchTag'
+
 " Initialize plugin system
 call plug#end()
 
