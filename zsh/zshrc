@@ -91,6 +91,7 @@ alias ..2="cd ../../.."
 alias dev="cd ~/Development"
 alias v="nvim"
 alias al='f() {alias | grep $1};f'
+alias UM="cd /Users/miguellobo/Development/UM/2o_ano/2oSemestre"
 
 # Pure theme options
 #PURE_PROMPT_SYMBOL='❯❯❯'
