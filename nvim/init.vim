@@ -62,3 +62,7 @@ let g:haskell_backpack = 1                " to enable highlighting of backpack k
 "Nerd tree
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+
+" cool macro for {} thingies
+let @p='A{}O    xxx'

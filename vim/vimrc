@@ -97,3 +97,5 @@ set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
 
+" cool macro for {} thingies
+let @p='A{^M}^[O^['
