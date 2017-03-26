@@ -66,3 +66,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 " cool macro for {} thingies
 let @p='A{}O    xxx'
+
+"replace under cursor
+nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
