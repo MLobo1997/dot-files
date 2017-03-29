@@ -16,6 +16,8 @@ Plug 'neovimhaskell/haskell-vim'
 
 Plug 'scrooloose/nerdtree' 
 
+Plug 'justinmk/vim-syntax-extra'
+
 " Initialize plugin system
 call plug#end()
 
