@@ -63,7 +63,8 @@ bind k resize-pane -U 5
 bind v copy-mode
 
 # When in copy (visual) mode, v begins selection
-bind-key -t vi-copy v begin-selection
+bind-key -Tcopy-mode-vi 'v' send -X begin-selection
+bind-key -Tcopy-mode-vi 'y' send -X copy-selection
 
 # Vim keybindings in copy mode
 set -g mode-keys vi
