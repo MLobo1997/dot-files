@@ -18,6 +18,8 @@ Plug 'scrooloose/nerdtree'
 
 Plug 'justinmk/vim-syntax-extra'
 
+Plug 'shmup/vim-sql-syntax'
+
 " Initialize plugin system
 call plug#end()
 
@@ -68,5 +70,5 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " cool macro for {} thingies
 let @p='A{}O    xxx'
 
-"replace under cursor
+"replace under cursor with '\s'
 nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
