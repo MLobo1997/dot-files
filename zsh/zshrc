@@ -93,7 +93,7 @@ alias ..2="cd ../../.."
 alias dev="cd ~/Development"
 alias v="nvim"
 alias al='f() {alias | grep $1};f'
-alias UM="cd /Users/miguellobo/Development/UM/3o_ano/1o_semestre"
+alias UM="cd /Users/miguellobo/Google Drive/UM/2018-19/1o Semestre/"
 alias lhs2TeX=$HOME"/Library/Haskell/bin/lhs2TeX"
 
 # Pure theme options
