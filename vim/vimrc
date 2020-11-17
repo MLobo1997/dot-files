@@ -46,6 +46,7 @@ Plugin 'Yggdroot/indentLine'
 
 "Status and tab bar customization
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 "Jekyll plugin
 "Plugin 'parkr/vim-jekyll'
@@ -84,7 +85,9 @@ let g:indentLine_char = '│'
 "airline stuff
 set laststatus=2
 let g:airline_theme='dark'
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts = 0
+let g:airline#extensions#tabline#enabled = 1
+
 
 "clipboard access
 set clipboard=unnamed

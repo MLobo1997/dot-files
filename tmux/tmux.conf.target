@@ -70,8 +70,8 @@ bind-key -Tcopy-mode-vi 'y' send -X copy-selection
 set -g mode-keys vi
 
 #Allow in apps clipboard access
-set -g default-shell $SHELL 
-set -g default-command "reattach-to-user-namespace -l ${SHELL}"
+#set -g default-shell $SHELL 
+#set -g default-command "reattach-to-user-namespace -l ${SHELL}"
 
 #Vim escape delay fix
 set -sg escape-time 0
